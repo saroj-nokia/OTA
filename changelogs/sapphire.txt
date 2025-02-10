@@ -1,0 +1,68 @@
+Changelog 20250209
+
+* Fixed soft reboot.
+* Fixed screen sharing issue in social media apps.
+* Made changes in color option.
+* Drop p3 and srgb in color option. (don't work)
+* Update libqcrilNrSmsModule.so from oneplus. (which fixes the sms issue)
+* Drop Added sim restart shell script.
+* Import telephony injection from LA.QSSI.14.0.r1-10000.01
+* Drop Setup DeviceAsWebcam ( don't work )
+* Fixes some sepolicy issue.
+* Updated blobs from OS2.0.6.0.VNGMIXM for both vendor and kernel.
+* Off screen fod/udfps works.
+* Drop 5g overlay.
+* set ro.surface_flinger.has_HDR_display to false. (don't know why it was enable. this device don't even has hdr display.)
+* Configure aux camera for Aperture. and more.
+
+Note
+
+* User build
+* based on new tree.
+* Full gapps build.
+* play integrity passes by default.
+
+bug 
+
+* offline charging visual bug but phone is charging in background. 
+
+credits
+
+* @RisingSunStar, @kibria5, @Openscine and @Sarojtaj77 tree used as base. @Sarojtaj77 for making this build possible.
+
+Rom maintainer
+
+* Sarojtaj77
+
+installion guide
+
+Download orange fox recovery or twrp
+Flash Recovery 
+Flash respective FW 
+Flash Rom+ reflash orangefox/twrp
+Reboot to recovery 
+Format data.
+Reboot
+
+if rom don't have gapps
+flash ro2rw
+Reboot to recovery 
+flash gapps 
+Format data
+Reboot
+ 
+
+
+Dirty Flash
+ 
+Flash Rom + reflash orange fox recovery/twrp
+reboot to recovery 
+Clear Dalvik & Cache
+Reboot
+
+if rom don't have gapps
+flash ro2rw
+reboot to recovery 
+flash gapps 
+Clear Dalvik & Cache
+Reboot
