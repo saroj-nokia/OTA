@@ -1,3 +1,7 @@
+Changelog 20250210
+
+* ota test
+
 Changelog 20250209
 
 * Fixed soft reboot.
