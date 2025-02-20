@@ -1,5 +1,6 @@
 Changelog 20250220
 
+* Initial implementation of ota. ( users will get ota updates)
 * Remove 6GHz band support configuration from WiFi resources
 * Drop QTI Lights
 * Fixes some sepolicy issues.
