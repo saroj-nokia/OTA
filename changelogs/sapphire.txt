@@ -1,3 +1,14 @@
+Changelog 20250220
+
+* Remove 6GHz band support configuration from WiFi resources
+* Drop QTI Lights
+* Fixes some sepolicy issues.
+* Enable AIDL fastboot HAL
+* Drop mlipay & mtdservice
+* Drop QTI Limits HAL
+* Switch back to old udfps codes ( off screen udfps broken for fpc udfps users but for Goodfix udfps sensor user will work fine.)
+* Fixed touch delay. 
+
 Changelog 20250211
 
 * initial ota test
