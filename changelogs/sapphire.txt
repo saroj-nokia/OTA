@@ -8,7 +8,8 @@ Changelog 20250220
 * Drop mlipay & mtdservice
 * Drop QTI Limits HAL
 * Switch back to old udfps codes ( off screen udfps broken for fpc udfps users but for Goodfix udfps sensor user will work fine.)
-* Fixed touch delay. 
+* Fixed touch delay.
+* Fixed Fast Charging, solution provided by @davilla990.
 
 Changelog 20250211
 
