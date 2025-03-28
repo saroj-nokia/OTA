@@ -7,7 +7,7 @@ Changelog 20250324
 * Bring back qti limits.
 * Migrate sensor HAL to AIDL interface
 * Fixed ir blaster.
-* drop BCR
+* Drop BCR
 
 Note
 * Existing users will get OTA grab a link from there and download the update. 
