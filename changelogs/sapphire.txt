@@ -1,3 +1,16 @@
+Changelog 20250324
+
+* Fixed some sepolicy denials.
+* Disable sustem ui blur.
+* Updated pixel_pitch value in configuration.
+* Updated blobs from OS2.0.8.0.VNGMIXM for both vendor and kernel.
+* Bring back qti limits.
+* Migrate sensor HAL to AIDL interface
+* Fixed ir blaster.
+
+Note
+* Existing users will get OTA grab a link from there and download the update. 
+
 Changelog 20250220
 
 * Initial implementation of ota. ( users will get ota updates)
