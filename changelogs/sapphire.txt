@@ -1,4 +1,5 @@
 Changelog 20250513
+* Fix an issue where in WhatsApp call while switching to loudspeaker cause no sound problem.
 * Switch to erofs
 * fix some sepolicy denials 
 * Switch to opengl es for render. (it is stable tha skia)
