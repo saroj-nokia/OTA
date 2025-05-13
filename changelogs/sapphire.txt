@@ -15,7 +15,7 @@ Changelog
 - Fix an issue where in WhatsApp call while switching to loudspeaker cause no sound problem.
 - Switch to erofs
 - fix some sepolicy denials 
-- Switch to opengl es for render. (it is stable tha skia)
+- Switch to opengl es for render. (it is stable the skia)
 - added some build props from stock rom.
 - Fixed touch delay.
 - added gamebar and many more.
