@@ -13,7 +13,6 @@ Changelog
 04/07/2025
 ---------------
 Changelog:
-- Added ota support.
 - Fix some nfc crashes.( for those who has sapphiren)
 - Fixed fingerprint registration issue
 - Remove xiaomi parts 
