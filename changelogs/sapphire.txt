@@ -4,29 +4,23 @@ Notes
 - User build
 - if you face issue like no ringtone if did the clean install. just reboot the device. if it not fixed install ZArchiver and go to root directory and in product folder and in media folder inside that folder you will find audio folder copy the audio folder and paste on download folder after that reboot after that you can check and you can remove audio folder from the download folder.
 - Full gapps build.
-- play integrity passes by default
+- This is last update for evo.
 
 
 Changelog
 ============= 
 
-13/05/2025
+04/07/2025
 ---------------
-- Fix an issue where in WhatsApp call while switching to loudspeaker cause no sound problem.
-- Switch to erofs
-- fix some sepolicy denials 
-- Switch to opengl es for render. (it is stable the skia)
-- added some build props from stock rom.
-- Fixed touch delay.
-- added gamebar and many more.
-- Fixed sometimes equalizer not working.
-- Fixed fingerprint registration issue.( now goodfix users also has to press twice to use udfps)
-- Added xiaomi parts (everything works but not sure about thermal profiles.)
-- Switch to Xiaomi fingerprint AIDL.
-- Enable AOSP surfaceflinger.
-- Partially fix battery mah issue.
-- Fixes some sepolicy issue.
+Changelog:
+- Added ota support.
+- Fix some nfc crashes.( for those who has sapphiren)
+- Fixed fingerprint registration issue
+- Remove xiaomi parts 
+- Fix some sepolicy denials
+- Improve touch responses 
+- Switch ims blobs to stock
+- Added sim restart script
+- Switch to sms module to stock. (because it breaks the ussd)
 - Switch to 64 bit only mode. ( old 32 bit won't work)
-- Updated blobs from OS2.0.8.0.VNGMIXM for both vendor and kernel.
-- Drop Dolby Atmos.
-- Drop qti limits.
+- Updated blobs from OS2.0.11.0.VNGMIXM for both vendor and kernel.
