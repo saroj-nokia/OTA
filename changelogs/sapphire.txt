@@ -1,6 +1,6 @@
 Notes
 ========
-- Existing users will get OTA grab a link from ota app and download the update.
+- Existing users will get OTA.
 - User build
 - core gapps build.
 
