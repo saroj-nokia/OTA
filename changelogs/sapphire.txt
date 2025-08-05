@@ -2,24 +2,22 @@ Notes
 ========
 - Existing users will get OTA grab a link from ota app and download the update.
 - User build
-- if you face issue like no ringtone if did the clean install. just reboot the device. if it not fixed install ZArchiver and go to root directory and in product folder and in media folder inside that folder you will find audio folder copy the audio folder and paste on download folder after that reboot after that you can check and you can remove audio folder from the download folder.
 - core gapps build.
 
 
 Changelog
 ============= 
 
-04/07/2025
+04/08/2025
 ---------------
 Changelog:
-- Added ota support.
-- Fix some nfc crashes.( for those who has sapphiren)
-- Fixed fingerprint registration issue
-- Remove xiaomi parts 
-- Fix some sepolicy denials
-- Improve touch responses 
-- Switch ims blobs to stock
-- Added sim restart script
-- Switch to sms module to stock. (because it breaks the ussd)
-- Switch to 64 bit only mode. ( old 32 bit won't work)
-- Updated blobs from OS2.0.11.0.VNGMIXM for both vendor and kernel.
+
+- Update security patch to july.
+- Fix some sepolicy denials.
+- remove some conflicting props.
+- added some props from stock rom.
+- build some blobs from source.
+- Updated blobs from OS2.0.201.0.VNGMIXM for both vendor and kernel.
+- fixed sms receiving issue.( no more workaround needed)
+- remove sim restart script.
+- update kernel version to 5.15.167.
