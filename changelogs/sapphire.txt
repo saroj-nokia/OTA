@@ -8,16 +8,17 @@ Notes
 Changelog
 ============= 
 
-04/08/2025
+11/11/2025
 ---------------
 Changelog:
 
-- Update security patch to july.
+- Update security patch to october..
+- Fix closing animation in AOD.
+- Remove some props causing lag.
+- Update blobs from OS2.0.207.0.VNGMIXM for both vendor and kernel.
+- Restore some thermal blobs.
+- Fix touch delay.
+- Remove some conflicting props config issues.
+- Restore some missing audio files.
+- Enable safety volume warning.
 - Fix some sepolicy denials.
-- remove some conflicting props.
-- added some props from stock rom.
-- build some blobs from source.
-- Updated blobs from OS2.0.201.0.VNGMIXM for both vendor and kernel.
-- fixed sms receiving issue.( no more workaround needed)
-- remove sim restart script.
-- update kernel version to 5.15.167.
