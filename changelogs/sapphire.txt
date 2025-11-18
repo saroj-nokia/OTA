@@ -18,7 +18,7 @@ Changelog:
 - Update blobs from OS2.0.207.0.VNGMIXM for both vendor and kernel.
 - Restore some thermal blobs.
 - Fix touch delay.
-- Remove some conflicting props config issues.
+- Remove some conflicting config causes issue.
 - Restore some missing audio files.
 - Enable safety volume warning.
 - Fix some sepolicy denials.
