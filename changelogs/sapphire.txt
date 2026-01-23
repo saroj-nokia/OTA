@@ -1,24 +1,32 @@
 Notes
 ========
-- Existing users will get OTA.
+- This build will not be in ota because it requires clean flash..
 - User build
-- core gapps build.
+- Full gapps build.
 
 
 Changelog
 ============= 
 
-11/11/2025
+22/01/2026
 ---------------
 Changelog:
 
-- Update security patch to october..
-- Fix closing animation in AOD.
-- Remove some props causing lag.
-- Update blobs from OS2.0.207.0.VNGMIXM for both vendor and kernel.
-- Restore some thermal blobs.
-- Fix touch delay.
-- Remove some conflicting config causes issue.
-- Restore some missing audio files.
-- Enable safety volume warning.
-- Fix some sepolicy denials.
+* Update security patch to January.
+* Rearrange the build props..
+* Fix color mode bug.
+* improve rounded corner.
+* Updated blobs from OS2.0.208.0.VNGMIXM for both vendor and kernel.
+* Fix some sepolicy denials.
+* Added some missing blobs.
+* audio improvement.
+* remove some deprecated config.
+* switch to full gapps.
+* improve gapps compatibility in settings apps.
+* fix where there no ringtone audio when bluetooth device is connected.
+* updated kernel version to 5.15.178.
+* remove wifi 6 config flag sd 685 don't support wifi 6.
+* improve overall performance.
+* fix offline charging animation. thanks to @decarab14 
+* drop nfc support.
+* hals merge to LA.VENDOR.13.2.1.r1-13600-DIVAR.QSSI15.0.
