@@ -1,4 +1,4 @@
-* Update security patch to september
+* Update security patch to September 2026.
 * Rearrange the build props.
 * Updated blobs from OS2.0.213.0.VNGMIXM for both vendor and kernel.
 * Fix some sepolicy denials.
