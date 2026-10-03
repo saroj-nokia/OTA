@@ -8,6 +8,6 @@
 * improve overall performance.
 * fix offline charging. 
 * Added pixel launcher.
-* Added android 15 custom clock.
+* Added android 15 custom clock in lockscreen.
 * Updated ui in updater app.
 * Now changelog can be view from the updater app.
