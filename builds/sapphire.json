@@ -1,12 +1,12 @@
 {
   "response": [
     {
-      "datetime": 1762857028,
-      "filename": "lineage-22.2-20251111-UNOFFICIAL-sapphire",
-      "id": "4b87b4ceabd9b3211cc29ec98a5fbd49b",
+      "datetime": 1790957025,
+      "filename": "lineage-22.2-20261002-UNOFFICIAL-sapphire.zip",
+      "id": "81a3a84d8eb5662858e3dd49f54e82621a1d1ec7d0b80ff97282baa195ec9805",
       "romtype": "UNOFFICIAL",
-      "size": 1603706508,
-      "url": "https://github.com/saroj-nokia/personal-build-custom-rom/releases/download/20251111/lineage-22.2-20251111-UNOFFICIAL-sapphire.zip",
+      "size": 2242647332,
+      "url": "https://sourceforge.net/projects/personal-build-custom-rom/files/sapphire/los-22/lineage-22.2-20261002-UNOFFICIAL-sapphire.zip/download",
       "version": "22.2"
     }
   ]
