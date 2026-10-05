@@ -9,5 +9,11 @@
 * fix offline charging. 
 * Added pixel launcher.
 * Added android 15 custom clock in lockscreen.
-* Updated ui in updater app.
-* Now changelog can be view from the updater app.
+* Updated to Android 15 (SDK 35) with full edge-to-edge support
+* Material 3 design with Material You: the app now follows your wallpaper colours
+* New Material switches, cards, buttons and a thicker rounded progress bar
+* Menus and dialogs restyled: rounded corners, matching colours
+* Fixed the mismatched header colour at the top of the screen
+* Long update titles now wrap to two lines instead of being cut off
+* Better spacing in the update card
+* New "Show changelog" option in the menu: read the changelog inside the app instead of in a browser
