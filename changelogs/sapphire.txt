@@ -1,1 +1,2 @@
 * Update security patch to October 2026.
+* Fix sepolicy denials.
