@@ -4,14 +4,12 @@
 * Compact header (44sp title, 14sp secondary info text)
 * Centered "up to date" empty state with icon
 * Extra list padding so the last card clears the gesture bar
-* Use MaterialAlertDialogBuilder for all dialogs (preferences, delete,
-  install, cancel, import, info, changelog) so they get Material 3
-  dynamic colours and rounded corners
-* Item popup uses Gravity.END to line up with the card menu button
-* Replace the Spinner with a Material exposed dropdown
-  (TextInputLayout + MaterialAutoCompleteTextView), same saved value
+* Use MaterialAlertDialogBuilder for all dialogs (preferences, delete, install, cancel, import, info, changelog) so they get Material 3dynamic colours and rounded corners.
+* Item popup uses Gravity.END to line up with the card menu button.
+* Replace the Spinner with a Material exposed dropdown (TextInputLayout + MaterialAutoCompleteTextView), same saved value.
 * Type the switches as MaterialSwitch to match the layout
-* Add ChangelogCardAdapter: a "What's new" card shown below the update
-  list via ConcatAdapter, with a "Full changelog" button that opens the
-  existing dialog. Hidden if the fetch fails; not added on TV.
+* Add ChangelogCardAdapter: a "What's new" card shown below the update list via ConcatAdapter, with a "Full changelog" button that opens the existing dialog. Hidden if the fetch fails; not added on TV.
 * Reload the card on manual refresh.
+* show the full changelog in the main page card.
+* show a backup warning above the update list.
+* move the "no updates" empty state up under the header.
