@@ -13,3 +13,4 @@
 * show the full changelog in the main page card.
 * show a backup warning above the update list.
 * move the "no updates" empty state up under the header.
+* revamp musicfx ui now looks native android 15.
